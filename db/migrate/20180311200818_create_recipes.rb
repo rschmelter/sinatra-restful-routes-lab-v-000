@@ -4,5 +4,6 @@ class CreateRecipes < ActiveRecord::Migration
       t.string :name
       t.string :ingredients
       t.decimal :cook_time
+    end
   end
 end
